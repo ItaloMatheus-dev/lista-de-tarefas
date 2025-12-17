@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #8CA9FF;
+    color: #FFF8DE;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 27px 0;
+    border-bottom: 27px solid #AAC4F5 ;
+}
+
+body {
+    background-color: #FFF8DE;
+}
+
+form {
+    background-color: #FFF2C6;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+header button {
+    margin-top: 8px;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    background-color: #44D7A8;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF2C6;
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    background-color: #FA6868;
+}
+
+ol {
+    margin: 24px;
+    padding-left: 45%;
+    background-color: #FFF2C6;
+    cursor: pointer;
+}
+
+.feito {
+    text-decoration: line-through;
+    color: gray;
+}
