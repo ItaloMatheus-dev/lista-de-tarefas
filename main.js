@@ -8,7 +8,6 @@ $(document).ready(function() {
         $('form').slideUp();
     })
 
-    // Delegation: toggle 'feito' on the clicked list item
     $('ol').on('click', 'li', function() {
         $(this).toggleClass('feito');
     });
@@ -18,7 +17,7 @@ $(document).ready(function() {
         const tarefa = $('#nova-tarefa').val();
         const novaTarefa = $(`<li>${tarefa}</li>`);
         $(novaTarefa).appendTo('ol');
-        // clear input; clicks handled by delegated listener above
+
         $('#nova-tarefa').val('');
     })
 })
